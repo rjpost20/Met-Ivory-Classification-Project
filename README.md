@@ -10,3 +10,21 @@ Photo by <a href="https://stock.adobe.com/contributor/19000/mat-hayward?load_typ
 Presentation slidedeck PDF:
 
 <br>
+
+## Overview and Business Understanding
+
+<br>
+
+## Understanding the Data
+
+<br>
+
+## Exploratory Data Analysis and Data Cleaning
+
+<br>
+
+## Modeling and Results
+
+<br>
+
+## Conclusions, Recommendations, and Next Steps
