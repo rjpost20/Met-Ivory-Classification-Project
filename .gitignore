@@ -1,4 +1,7 @@
 *.jpg
+Met_Art_Classification_Model_V1.ipynb
+Met_Art_Classification_Model_V2.ipynb
+Met_Art_Classification_Model_V3.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
