@@ -6,7 +6,7 @@ Photo by <a href="https://stock.adobe.com/contributor/19000/mat-hayward?load_typ
 ## By Ryan Posternak and Harrison Carter
 
 Flatiron School, Full-Time Live NYC<br>
-Project Presentation Date: August 6th, 2022<br>
+Project Presentation Date: August 5th, 2022<br>
 Instructor: Joseph Mata
 
 ### Links
