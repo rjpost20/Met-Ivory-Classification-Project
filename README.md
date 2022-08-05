@@ -43,7 +43,9 @@ For this project, we first searched for artifacts that have the word "ivory" lis
 
 <br>
 
-![Distribution_Artifacts_by_Department_ReadMe.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Artifacts_by_Department_ReadMe.png?raw=true)
+After further exploration of the data, we discovered that many of the artifacts in our initial collection of ivory objects (all artifacts listing ivory as a medium) contained many pieces where ivory was only a minor component of the design of the artifact. In many of these cases, even human analysis could not accurately determine whether ivory was a component of the artifact or not. For this reason, we decided to limit our collection of ivory artifacts that we passed into the models to objects where ivory was the sole/main component.
+
+![Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png?raw=true)
 
 ## Modeling and Results
 
