@@ -37,13 +37,17 @@ Data for this project was sourced from <a href="https://www.metmuseum.org/art/co
 
 For this project, we first searched for artifacts that have the word "ivory" listed among the object's medium(s). These artifacts formed the initial collection of ivory art pieces that we used to train our neural network. For non-ivory object images to train the neural network, we searched for objects that contained "ceramic" listed among the medium(s), as we reasoned that ceramic figures which be of a similar size and shape as most ivory objects, thus making them a difficult comparison against the ivory artifacts for the neural networks to classify.
 
+<br>
 
+![slide 4](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/slide_deck/slide_jpgs/Slide%204.jpeg?raw=true)
 
 <br>
 
 ## Exploratory Data Analysis and Data Cleaning
 
 <br>
+
+![Distribution_Artifacts_by_Department.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Artifacts_by_Department.png?raw=true)
 
 ## Modeling and Results
 
