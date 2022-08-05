@@ -37,15 +37,11 @@ Data for this project was sourced from <a href="https://www.metmuseum.org/art/co
 
 For this project, we first searched for artifacts that have the word "ivory" listed among the object's medium(s). These artifacts formed the initial collection of ivory art pieces that we used to train our neural network. For non-ivory object images to train the neural network, we searched for objects that contained "ceramic" listed among the medium(s), as we reasoned that ceramic figures which be of a similar size and shape as most ivory objects, thus making them a difficult comparison against the ivory artifacts for the neural networks to classify.
 
-<br>
-
 ![slide 4](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/slide_deck/slide_jpgs/Slide%204.jpeg?raw=true)
 
 <br>
 
 After further exploration of the data, we discovered that many of the artifacts in our initial collection of ivory objects (all artifacts listing ivory as a medium) contained many pieces where ivory was only a minor component of the design of the artifact. In many of these cases, even human analysis could not accurately determine whether ivory was a component of the artifact or not. For this reason, we decided to limit our collection of ivory artifacts that we passed into the models to objects where ivory was the sole/main component.
-
-<br>
 
 ![Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png?raw=true)
 
@@ -54,8 +50,6 @@ After further exploration of the data, we discovered that many of the artifacts 
 ## Modeling and Results
 
 Our highest scoring model, model 1, achieved a test accuracy score of 82.4%, an approximately 10% improvement over our baseline fully-connected neural network. Although model 1 achieved the highest test accuracy score, most of the other CNN models achieved very similar scores, so we cannot confidenly say that model 1 will consistenly outperform the others on new test data. The model performed best at classifying non-ivory objects, correctly classifying 299 out of 353 non-ivory objects (84.7%) on the test data. On ivory objects, it correctly classified 70 out of 353 artifacts (80.2%) on the test data.
-
-<br>
 
 ![slide 6](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/slide_deck/slide_jpgs/Slide%206_readme.jpeg?raw=true)
 
