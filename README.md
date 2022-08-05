@@ -43,10 +43,6 @@ For this project, we first searched for artifacts that have the word "ivory" lis
 
 <br>
 
-## Exploratory Data Analysis and Data Cleaning
-
-<br>
-
 ![Distribution_Artifacts_by_Department_ReadMe.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Artifacts_by_Department_ReadMe.png?raw=true)
 
 ## Modeling and Results
