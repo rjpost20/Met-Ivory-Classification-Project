@@ -55,7 +55,7 @@ Our highest scoring model, model 1, achieved a test accuracy score of 82.4%, an 
 
 <br>
 
-## Conclusions, Recommendations, and Next Steps
+## Conclusions and Recommendations
 
 **While many of the ivory objects in this dataset are difficult to classify, successful classification of ivory artifacts is possible.** An accuracy score of 82.4% is likely too low to be sufficient to deploy, but the fact that we were able to build a model that performed substantially better than chance shows that our proof-of-concept was successful. Additionally, due to the nature of the dataset, it would be extremely difficult to achieve very high accuracy scores on these objects. As we saw in the EDA section, some of these objects are hundreds or thousands of years old which can lead to discoloration and disfiguration of the artifacts.
 
