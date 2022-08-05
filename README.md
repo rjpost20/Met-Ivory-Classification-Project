@@ -11,7 +11,7 @@ Instructor: Joseph Mata
 
 ### Links
 
-Presentation slidedeck PDF:
+[Presentation slidedeck PDF](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/slide_deck/Met_Ivory_Presentation_Slide_Deck.pdf)
 
 <br>
 
