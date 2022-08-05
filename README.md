@@ -56,3 +56,13 @@ Our highest scoring model, model 1, achieved a test accuracy score of 82.4%, an 
 <br>
 
 ## Conclusions, Recommendations, and Next Steps
+
+**While many of the ivory objects in this dataset are difficult to classify, successful classification of ivory artifacts is possible.** An accuracy score of 82.4% is likely too low to be sufficient to deploy, but the fact that we were able to build a model that performed substantially better than chance shows that our proof-of-concept was successful. Additionally, due to the nature of the dataset, it would be extremely difficult to achieve very high accuracy scores on these objects. As we saw in the EDA section, some of these objects are hundreds or thousands of years old which can lead to discoloration and disfiguration of the artifacts.
+
+**Consider which forms of ivory objects the WWF wants the model to perform best at classifying, and train the model accordingly.** Ivory can take many forms, shapes and colors, ranging from raw unprocessed ivory to sculpted and painted artifacts and everything in between. The more processed the ivory, the more likely it is the neural network will have a difficult time accurately classifying it.
+
+**Consider the trade-off between precision and recall.** We saw that some of our models, including model 1, fared significantly better with their precision scores than their recall scores. In other words, there were far fewer instances of incorrectly classifying an artifact as ivory when in fact it was not. On the other hand, other models such as model 2 fared better on recall, having fewer instances of incorrectly classifying an artifact as non-ivory when in fact it was.
+
+**Be aware of the limitations of this and similar models.** Beyond simply not achieving an especially high accuracy score, limitations exist in this model which will likely persist into other models. One of these is that the model will very likely not perform well in attempting to classify artifacts where ivory is only one of multiple components of the design, or where the ivory has been painted so as to obscure the classic white color.
+
+**Be aware that this model and similar models will also detect other forms of ivory, besides that obtained from elephants.** Though the primary concern for this project was elephant ivory, we also included some other forms of ivory such as that from walrus in our data, as the physical form is likely indistinguishable in most ways so the data was still valuable. However the trade of walrus ivory is legal and is culturally and economically important to indigenous communities in the Arctic. The WWF should consider how such models can inadvertently adversely impact these communities.
