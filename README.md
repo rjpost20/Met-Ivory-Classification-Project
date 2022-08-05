@@ -49,9 +49,13 @@ After further exploration of the data, we discovered that many of the artifacts 
 
 ![Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/visualizations/Distribution_Number_Materials_Comprising_Artifacts_ReadMe.png?raw=true)
 
+<br>
+
 ## Modeling and Results
 
 Our highest scoring model, model 1, achieved a test accuracy score of 82.4%, an approximately 10% improvement over our baseline fully-connected neural network. Although model 1 achieved the highest test accuracy score, most of the other CNN models achieved very similar scores, so we cannot confidenly say that model 1 will consistenly outperform the others on new test data. The model performed best at classifying non-ivory objects, correctly classifying 299 out of 353 non-ivory objects (84.7%) on the test data. On ivory objects, it correctly classified 70 out of 353 artifacts (80.2%) on the test data.
+
+<br>
 
 ![slide 6](https://github.com/rjpost20/Met-Ivory-Classification-Project/blob/main/slide_deck/slide_jpgs/Slide%206_readme.jpeg?raw=true)
 
